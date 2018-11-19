@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-msgraphclientdemo-client-side-solution",
+    "id": "b3c1d694-cf3d-4bb7-91be-0a15f11bdb14",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource" : "Microsoft Graph",
+        "scope" : "Files.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-msgraphclientdemo.sppkg"
+  }
+}

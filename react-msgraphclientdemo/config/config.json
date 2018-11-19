@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-msgraphclientdemo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactMsgraphclientdemo/ReactMsgraphclientdemoWebPart.js",
+          "manifest": "./src/webparts/reactMsgraphclientdemo/ReactMsgraphclientdemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactMsgraphclientdemoWebPartStrings": "lib/webparts/reactMsgraphclientdemo/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
